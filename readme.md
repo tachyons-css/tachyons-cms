@@ -1,4 +1,4 @@
-# tachyons-cms 1.1.0
+# tachyons-cms 1.1.1
 
 CSS module for styling unqualified elements with Tachyons
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-cms@1.1.0/css/tachyons-cms.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-cms@1.1.1/css/tachyons-cms.min.css" />
 ```
 
 ##### Locally
@@ -87,7 +87,7 @@ Running `$ npm start` will process the source css and place the built css in the
 .nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
 .nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
 .nested-copy-indent p+p { text-indent: 1em; }
-.nested-copy-seperator p+p { margin-top: 1.5em; }
+.nested-copy-separator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
 ```
 
